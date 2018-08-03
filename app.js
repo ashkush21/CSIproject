@@ -16,7 +16,8 @@ var express    = require("express"),
 
 
 // mongoose.connect("mongodb://localhost:27017/CSIproject", { useNewUrlParser: true }); 
-	mongoose.connect("mongodb://ashkush:Ashish@123@ds111072.mlab.com:11072/csiproject", { useNewUrlParser: true });
+mongoose.connect("mongodb://ash:ashish1@ds135540.mlab.com:35540/csiproject", { useNewUrlParser: true });
+
 app.use(bodyparser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
