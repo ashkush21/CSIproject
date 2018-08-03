@@ -15,8 +15,8 @@ var express    = require("express"),
 		authRoutes       = require("./routes/index");
 
 
-mongoose.connect("mongodb://localhost:27017/CSIproject", { useNewUrlParser: true }); 
-// mongoose.connect("mongodb://localhost:27017/CSIproject", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost:27017/CSIproject", { useNewUrlParser: true }); 
+	mongoose.connect("mongodb://ashkush:Ashish@123@ds111072.mlab.com:11072/csiproject", { useNewUrlParser: true });
 app.use(bodyparser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
