@@ -92,7 +92,7 @@
 		<%  var i = 0;
 		events.forEach(function(eve){ 
 		 var date = new Date();
-		if(date > eve.eventDateEnd) { 
+		if(date > eve.eventDateEnd && date.getDate()!== eve.eventDateStart.getDate()) { 
 		 i++;%>
 		<div class="col-md-3 col-sm-6">
 			<div class="thumbnail" id="showbox">
