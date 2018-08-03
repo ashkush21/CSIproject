@@ -99,6 +99,7 @@ background-size: cover;
 
 #showbox {
 	background: black;
+	color: rgb(209, 209, 209);
 	box-shadow: 1px 1px 8px pink inset,
 				-1px -1px 8px pink inset,
 				 -4px -4px 30px blue;
