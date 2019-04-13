@@ -35,6 +35,7 @@ body{
 	box-shadow: 3px 3px 5px rgba(43, 183, 229,0.4),
               3px 5px 5px rgba(43, 183, 229,0.3),
               3px 2px 2px rgba(43, 183, 229,0.2);
+    background-color: white;          
 }
 
 #header-navbar {

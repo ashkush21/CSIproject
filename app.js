@@ -15,8 +15,13 @@
 		authRoutes       = require("./routes/index");
 
 
-// mongoose.connect("mongodb://localhost:27017/CSIproject", { useNewUrlParser: true }); 
-mongoose.connect("mongodb://ash:ashish1@ds135540.mlab.com:35540/csiproject", { useNewUrlParser: true });
+// mongoose.connect("mongodb://localhost:27017/CSIproject", { useNewUrlParser: true });
+//mongodb://<dbuser>:<dbpassword>@ds135540.mlab.com:35540/csiproject 
+mongoose.connect(
+	"mongodb+srv://ashkush:csiproject@ashkush-wsyln.mongodb.net/csiproject?retryWrites=true",
+	 { 
+	 	useNewUrlParser: true 
+	 });
 
 app.use(bodyparser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
