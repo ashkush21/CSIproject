@@ -1,12 +1,12 @@
 # CSIproject
 
 Webapp to display all the events, SIGs happening in college
-* The site uses heroku for hosting and mLab for the database.
+* The site uses heroku for hosting and mongoLab for the database.
 * Please "npm install" all the packages mentioned in the package.json before running the webapp
 * How to run this web app locally:-
     1. Fork this repository. Then clone the forked version using "$ git clone <repository url>"
     2. Then "$ cd CSIproject". Install all dependencies using "npm install"
-    3. Run "$ node app.js". Now the web app will be deployed at "localhost:5000".
+    3. Run "$ node app.js". Now the web app will be deployed at "localhost:5000" (You can change the port in the app.js file).
     4. Open browser and type "localhost:5000" in the url bar.
 
 * Here's a link to its deployment in heroku - https://obscure-forest-84435.herokuapp.com/
