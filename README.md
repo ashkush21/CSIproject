@@ -9,7 +9,7 @@ Webapp to display all the events, SIGs happening in college
     3. Run "$ node app.js". Now the web app will be deployed at "localhost:5000" (You can change the port in the app.js file).
     4. Open browser and type "localhost:5000" in the url bar.
 
-* Here's a link to its deployment in heroku - https://obscure-forest-84435.herokuapp.com/
+* Link to the hosted version of the website on heroku - https://obscure-forest-84435.herokuapp.com/
 
 # Features of the site:
 
